@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(212, 45%, 89%);
+    }
+    .maincontainer{
+      border: 2px solid black;
+      width: 320px;
+      margin: auto;
+      margin-top: 60px;
+      height: 460px;
+      border-radius: 15px;
+      background-color: hsl(0, 0%, 100%);
+    }
+    .qrcodecontainer{
+      
+      margin: 25px auto;
+      height: 250px;
+      width: 270px;
+    }
+    .image{
+      width:270px;
+      height: 250px;
+      border-radius: 10px;
+    }
+    .qrheading{
+      margin: 8px auto;
+    }
+    .qrheading div{
+      text-align: center;
+      font-family: Outfit;
+      font-weight: 700;
+      font-size: 25px;
+    }
+  .paragraph p{
+    text-align: center;
+    margin: 0 auto;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  </style>
+</head>
+<body>
+
+  Improve your front-end skills by building projects
+
+  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="www.linkedin.com/in/rahul-sharma-aa5b0a217">RAHUL SHARMA</a>.
+  </div>
+  <div class="maincontainer">
+    <div class="qrcodecontainer">
+      <img src="images/image-qr-code.png" alt="qr-code" class="image">
+      <div class="qrheading">
+        <div>Improve your front-end</div>
+        <div >skills by building projects</div>
+      </div>
+      <div class="paragraph">
+        <p>Scan the QR code to visit Frontend</p>
+        <p>Mentor and take your coding skills to</p>
+        <p>the next level</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
